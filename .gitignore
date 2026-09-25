@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# Environment variables / secrets
+.env
+*.env
+
+# Model artifacts
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# Local model/checkpoint directories
+checkpoints/
+outputs/
+wandb/
